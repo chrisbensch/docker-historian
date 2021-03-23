@@ -1,4 +1,6 @@
-FROM gcr.io/distroless/python3-debian10
+#FROM gcr.io/distroless/python3-debian10
+
+FROM python
 
 COPY requirements.txt /run/requirements.txt
 
