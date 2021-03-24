@@ -1,6 +1,4 @@
-#FROM gcr.io/distroless/python3-debian10
-
-FROM python
+FROM python:3.9-slim-buster
 
 COPY requirements.txt /run/requirements.txt
 
