@@ -9,3 +9,4 @@ COPY docker-historian.py /run/docker-historian.py
 WORKDIR /run/
 
 ENTRYPOINT ["python","docker-historian.py"]
+
